@@ -9,7 +9,4 @@ class Person {
         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old ${this.gender}. My interests are ${this.interests}.`)
     }
 }
-let person = new Person('Tshiamo', '24', 'Male',
-    ['Coding', ' Dancing',
-        ' Love kids'])
-person.hello()
+module.exports = {Person: Person}

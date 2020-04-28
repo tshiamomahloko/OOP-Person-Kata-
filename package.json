@@ -1,0 +1,14 @@
+{
+  "name": "oop_person_tdd",
+  "version": "1.0.0",
+  "description": "Create A Person Class",
+  "main": "person.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Tshiamo Mahloko",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
