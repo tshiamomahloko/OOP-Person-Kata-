@@ -6,7 +6,8 @@ class Person {
         this.interests = interests
     }
     hello() {
-        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old ${this.gender}. My interests are ${this.interests}.`)
+        return (`Hello, my name is ${this.name} and I am ${this.age} years old ${this.gender}. My interests are ${this.interests}.`)
     }
 }
+
 module.exports = {Person: Person}
